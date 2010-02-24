@@ -1,4 +1,17 @@
-#summary Enabling HTML5 video tags in your document.
+#summary How to use html5media in your document.
 #labels Featured
 
 =Getting Started=
+
+To enable HTML5 video tags in all major browsers, simply paste the following code into the `<head>` of your document:
+
+{{{
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="http://html5media.googlecode.com/svn/trunk/src/jquery.html5media.min.js"></script>
+}}}
+
+If you're already using [http://jquery.com/ jQuery 1.4] in your page, then you can leave the first line out. Just be sure to include *html5media* underneath your own jQuery declaration.
+
+==Hosting your own html5media==
+
+If you don't trust Google Code to host the files used by *html5media*, then don't worry. Simply [http://code.google.com/p/html5media/source/checkout checkout] the code and copy the `src` folder onto your own webserver. You can then link to your own copy rather than the one hosted on Google Code. Just be sure to keep all the *html5media* files in the same folder, and it should all work just fine.
