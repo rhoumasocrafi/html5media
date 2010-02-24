@@ -35,6 +35,12 @@ It is highly recommended that you add a splash image to all your video tags. Thi
 <video src="video.mp4" width="320" height="240" poster="image.jpg" controls autobuffer></video>
 }}}
 
+==Styling video tags==
+
+It is important not to directly style the video tags in your document using CSS. This is because browsers that do not support video tags will have them replaced by a [http://www.flowplayer.org Flash video player].
+
+To style your video tags using CSS, simply assign them a `class` or an `id`, and attach CSS style rules to that. The replacement Flash video player will have the same `id` and `class` as the video tag, so will pick up the same style rules.
+
 ==Hosting your own html5media==
 
 If you don't trust Google Code to host the files used by *html5media*, then don't worry. Simply [http://code.google.com/p/html5media/source/checkout checkout] the code and copy the `src` folder onto your own webserver. You can then link to your own copy rather than the one hosted on Google Code. Just be sure to keep all the *html5media* files in the same folder, and it should all work just fine.
