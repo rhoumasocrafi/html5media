@@ -2,7 +2,7 @@
 
 = How it works =
 
-The *html5media* script checks whether your browser supports both the HTML5 video tag and the h.264 and MPEG-4 codecs. If it does, the script does nothing. This is currently the case for Google Chrome, Safari, iPhone and Android phones.
+The *html5media* script checks whether your browser supports both the HTML5 video tag and the h.264 codec. If it does, the script does nothing. This is currently the case for Google Chrome, Safari, iPhone and Android phones.
 
 If your browser does not support HTML5 video, then the video tags are dynamically replaced with a [http://flowplayer.org/ Flowplayer] instance, providing the same functionality as the original video tag.
 
