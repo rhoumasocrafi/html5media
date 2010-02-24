@@ -2,7 +2,7 @@
 
 =Video formats=
 
-For your videos to work with *html5media*, they must be saved as *mp4* files using the *h.264* codec. This video format is a widely-accepted standard on the internet, and is the same format that is used by [http://www.youtube.com YouTube] and [http://www.apple.com/itunes/ iTunes].
+For your videos to work with *html5media*, they must be saved as mp4 files using the *h.264* codec. This video format is a widely-accepted standard on the internet, and is the same format that is used by [http://www.youtube.com YouTube] and [http://www.apple.com/itunes/ iTunes].
 
 You can encode your videos to h.264 using the following free programs:
 
