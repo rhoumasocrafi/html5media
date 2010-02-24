@@ -41,6 +41,16 @@ It is important not to directly style the video tags in your document using CSS.
 
 To style your video tags using CSS, simply assign them a `class` or an `id`, and attach CSS style rules to that. The replacement Flash video player will have the same `id` and `class` as the video tag, so will pick up the same style rules.
 
+==Dynamically inserted video tags==
+
+The *html5media* script is run automatically when your page loads. However, if you use Javascript to create your own HTML5 video tags dynamically, these might not be caught by the script.
+
+To ensure that dynamically-inserted video tags are usable in all browsers, you must run the following line of code whenever you've finished inserting video tags.
+
+{{{
+$.html5media()
+}}}
+
 ==Hosting your own html5media==
 
 If you don't trust Google Code to host the files used by *html5media*, then don't worry. Simply [http://code.google.com/p/html5media/source/checkout checkout] the code and copy the `src` folder onto your own webserver. You can then link to your own copy rather than the one hosted on Google Code. Just be sure to keep all the *html5media* files in the same folder, and it should all work just fine.
