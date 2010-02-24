@@ -1,7 +1,7 @@
 #summary How to use html5media in your document.
 #labels Featured
 
-=Getting Started=
+=Getting started=
 
 To enable HTML5 video tags in all major browsers, simply paste the following code into the `<head>` of your document:
 
