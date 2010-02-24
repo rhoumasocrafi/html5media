@@ -10,6 +10,12 @@ You can save your videos as h.264 files using the following free programs:
   * [http://handbrake.fr/ Handbrake] - All platforms
   * [http://www.ffmpegx.com/ ffmpegX] - Mac OSX only
 
+==Help! I have to wait for my entire video to download before it plays!==
+
+This is a common problem, and means that your movie file has been incorrectly saved with the metadata at the end of the file. To fix this, simply download and run the following free program:
+
+  * [http://renaun.com/air/QTIndexSwapper.air QTIndexSwapper]
+
 ==What about Theora?==
 
 [http://www.theora.org/ Theora] is an open source video codec that has been proposed the standard video encoding to be used on the web. It's advantage over h.264 is that it's royalty-free, and unencumbered by patents. Open source web browsers, such as [http://www.firefox.com Firefox], can therefore include this codec for free.
