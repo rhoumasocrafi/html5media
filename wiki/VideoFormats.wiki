@@ -1,0 +1,18 @@
+#summary Encoding your video for the web.
+
+=Video formats=
+
+For your videos to work with *html5media*, they must be saved as *mp4* files using the *h.264* codec. This video format is a widely-accepted standard on the internet, and is the same format that is used by [http://www.youtube.com YouTube] and [http://www.apple.com/itunes/ iTunes].
+
+You can encode your videos to h.264 using the following free programs:
+
+* [http://handbrake.fr/ Handbrake] - All platforms
+* [http://www.ffmpegx.com/ ffmpegX] - Mac OSX only
+
+==What about Theora?==
+
+[http://www.theora.org/ Theora] is an open source video codec that has been proposed as a standard video encoding to be used on the web. It's advantage over h.264 is that it's royalty-free, and unencumbered by patents. Open source web browsers, such as [http://www.firefox.com Firefox], can therefore include this codec for free.
+
+There is currently no support for Theora in *html5media*. Supporting both video formats would add a lot of complexity to the codebase, and make it a lot harder to use HTML5 video tags in the real world. For browsers that do not support Theora (everything but Chrome and Firefox), videos would have to be provided in both Theora and h.264 formats, which is simply not sustainable in the real world.
+
+I'm aware of the controversy surrounding the issue, and can see the obvious merits of Theora. However, it's more important that a single format is supported across the internet, and there are a great many influential companies putting their weight behind h.264.
