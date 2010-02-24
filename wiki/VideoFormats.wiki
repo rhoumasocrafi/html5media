@@ -12,7 +12,7 @@ You can save your videos as h.264 files using the following free programs:
 
 ==Help! I have to wait for my entire video to download before it plays!==
 
-This is a common problem, and means that your movie file has been incorrectly saved with metadata at the end of the file. To fix this, simply download and run the following free program:
+This is a common problem, and means that your movie file has been incorrectly saved with metadata at the end of the file. You can fix this using the following free program:
 
   * [http://renaun.com/air/QTIndexSwapper.air QTIndexSwapper]
 
