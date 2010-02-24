@@ -2,7 +2,7 @@
 
 =Custom Flash players=
 
-The *html5media* project comes bundles with [http://www.flowplayer.org Flowplayer], an open source Flash video player. We chose this player because it does a very good job of emulating a HTML5 video tag.
+The *html5media* project comes bundled with [http://www.flowplayer.org Flowplayer], an open source Flash video player. We chose this player because it does a very good job of emulating a HTML5 video tag.
 
 There are times when you might want to customise the appearance or behaviour of the fallback Flash player, or even use a different Flash player entirely. In this case, simply insert the following code underneath your *html5media* declaration:
 
@@ -14,7 +14,7 @@ There are times when you might want to customise the appearance or behaviour of 
 </script>
 }}}
 
-You can access the video tag being replaced using `this` within the body of your function. It is your responsibility to correctly read the attributes of the video tag and emulate them in the custom player. Once the custom player has been created, replace the video tag with the custom player using the following syntax:
+You can access the video tag being replaced by using `this` within the body of your function. It is your responsibility to correctly read the attributes of the video tag and emulate them in the custom player. Once the custom player has been created, replace the video tag with the custom player using the following syntax:
 
 {{{
 $(this).replaceWith(customPlayer);
