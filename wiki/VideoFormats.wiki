@@ -6,8 +6,8 @@ For your videos to work with *html5media*, they must be saved as *mp4* files usi
 
 You can encode your videos to h.264 using the following free programs:
 
-* [http://handbrake.fr/ Handbrake] - All platforms
-* [http://www.ffmpegx.com/ ffmpegX] - Mac OSX only
+  * [http://handbrake.fr/ Handbrake] - All platforms
+  * [http://www.ffmpegx.com/ ffmpegX] - Mac OSX only
 
 ==What about Theora?==
 
