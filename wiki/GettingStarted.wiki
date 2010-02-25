@@ -40,13 +40,3 @@ It is highly recommended that you add a splash image to all your video tags. Thi
 It is important not to directly style the video tags in your document using CSS. This is because browsers that do not support video tags will have them replaced by a [http://www.flowplayer.org Flash video player].
 
 To style your video tags using CSS, simply assign them a `class` or an `id`, and attach CSS style rules to that. The replacement Flash video player will have the same `id` and `class` as the video tag, so will pick up the same style rules.
-
-==Dynamically inserted video tags==
-
-The *html5media* script is run automatically when your page loads. However, if you use Javascript to create your own HTML5 video tags dynamically, these might not be caught by the script.
-
-To ensure that dynamically-inserted video tags are usable in all browsers, you must run the following line of code whenever you've finished inserting video tags.
-
-{{{
-$.html5media()
-}}}
