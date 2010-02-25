@@ -1,0 +1,25 @@
+#summary Things to be aware of when using html5media.
+
+= Known limitations =
+
+For the vast majority of uses, *html5media* will just work out of the box with no complications. However, if you intend to do more advanced work using HTML5 video tags, read on...
+
+==Dynamically inserted video tags==
+
+The *html5media* script is run automatically when your page loads. However, if you use Javascript to create your own HTML5 video tags dynamically, these might not be caught by the script.
+
+To ensure that dynamically-inserted video tags are usable in all browsers, you must run the following line of code whenever you've finished inserting video tags.
+
+{{{
+$.html5media()
+}}}
+
+==No support for audio tags==
+
+At some point, I intend to update *html5media* to support HTML5 audio tags. When I get some time off commercial work, it'll go in. Until that point, feel free to pester me about this on the [http://groups.google.com/group/html5media project mailing list].
+
+==No support for scripting video tags==
+
+Because some browsers will have their video tags replaced with Flash video players, if you try to call [http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#htmlmediaelement HTMLMediaElement] javascript methods on the video tag then it won't work in all browsers.
+
+It would be lovely if *html5media* could set up these fallback Flash video players with an emulated javascript API. Maybe one day I'll do just this. Until then, I'm just a human, and have to sleep sometimes!
