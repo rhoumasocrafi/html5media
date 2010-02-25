@@ -20,6 +20,25 @@ This is a common problem, and means that your movie file has been incorrectly sa
 
 [http://www.theora.org/ Theora] is an open source video codec that has been proposed the standard video encoding to be used on the web. It's advantage over h.264 is that it's royalty-free, and unencumbered by patents. Open source web browsers, such as [http://www.firefox.com Firefox], can therefore include this codec for free.
 
-There is currently no support for Theora in *html5media*. Supporting both video formats would add a lot of complexity to the codebase, and make it a lot harder to use HTML5 video tags in the real world. For browsers that do not support Theora (everything but Chrome and Firefox), videos would have to be provided in both Theora and h.264 formats, which is simply not sustainable in the real world.
+If you want to use Theora videos in your page, then you need to do a bit more work. You will first need to create two versions of your video file. One version needs to be saved as h.264, the other as Theora. You then embed the videos in your page using an extended video tag syntax:
 
-I'm aware of the controversy surrounding the issue, and can see the obvious merits of Theora. However, it's more important that a single format is supported across the internet, and there are a great many influential companies putting their weight behind h.264.
+{{{
+<video class="video" poster="cat.jpg" width="352" height="264" controls autobuffer>
+    <source src="cat.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <source src="cat.ogv" type='video/ogg; codecs="theora, vorbis"'>
+</video>
+}}}
+
+Providing a Theora version of your video will allow Firefox to use a HTML5 video player. If you do not provide a Theora version, then Firefox will fall back to using a Flash video player.
+
+You can convert your h.264 files to Theora using the following free tool:
+
+  * [http://firefogg.org/ Firefogg]
+
+==Help! Firefox won't play my Theora video!==
+
+Firefox will only be able to play Theora files if they are served using the correct content type of 'video/ogg'. Not all web servers recognise Theora files, and serve them as binary files. You can force Apache to serve Theora files correctly by adding the following line to your server configuration or .htaccess file:
+
+{{{
+AddType video/ogg .ogv
+}}}
