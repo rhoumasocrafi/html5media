@@ -2,8 +2,8 @@
 
 = How it works =
 
-The *html5media* script checks whether your browser supports both the HTML5 video tag and the h.264 codec. If it does, the script does nothing. This is currently the case for Google Chrome, Safari, iPhone and Android phones.
+The *html5media* script scans your page for video tags, and checks whether your browser is capable of playing the files they contain using a HTML5 player. If the browser can play the contents of the video tags, then the script does nothing.
 
-If your browser does not support HTML5 video, then the video tags are dynamically replaced with a [http://flowplayer.org/ Flowplayer] instance, providing the same functionality as the original video tag.
+If your browser does not support HTML5 video, then the offending video tags are dynamically replaced with a [http://flowplayer.org/ Flowplayer] instance, providing the same functionality as the original video tag.
 
-There is currently no support for videos encoded using [http://www.theora.org/ Theora]. Read more about this on our VideoFormats page.
+The *html5video* script supports both h.264 (mp4) and Theora (ogv) video files. Read more about this on our VideoFormats page.
