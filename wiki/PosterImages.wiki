@@ -18,7 +18,7 @@ There's a [http://daringfireball.net/2009/12/html5_video_unusable bit of a debat
 
 ==How do I capture the first frame of a video?==
 
-The easiest way to capture the first frame of a video is to take a screenshot. It's crude, but it works. Alternatively, you can download and install the free [http://ffmpeg.org/ FFmpeg] tool, and run this command in a terminal:
+The easiest way to capture the first frame of a video is to take a screenshot. It's crude, but it works. Alternatively, you can download and install the free [http://ffmpeg.org/ FFmpeg] tool, then run this command in a terminal:
 
 {{{
 ffmpeg  -ss 0 -i video.mp4 -f image2 -vframes 1 poster.jpg
