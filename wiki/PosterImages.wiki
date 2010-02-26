@@ -24,4 +24,4 @@ The easiest way to capture the first frame of a video is to take a screenshot. I
 $ ffmpeg  -ss 0 -i video.mp4 -f image2 -vframes 1 poster.jpg
 }}}
 
-Getting FFmpeg installed can be a bit of a nightmare, however. So unless you're going to be processing a lot of videos, it's probably best to stick with screenshots.
+Getting FFmpeg installed can be a bit of a nightmare. Unless you're going to be processing a lot of videos, it's probably best to stick with screenshots.
