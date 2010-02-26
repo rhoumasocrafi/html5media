@@ -16,7 +16,7 @@ Unfortunately, different browsers interpret the poster attribute in different wa
 
 There's a [http://daringfireball.net/2009/12/html5_video_unusable bit of a debate] going on about this at the moment. As far as I'm aware, Firefox is currently the only browser that is handling this attribute correctly. Chrome and Safari should really fall into line on this one, as it's going to make some people unwilling to adopt HTML5 video.
 
-==How to I capture the first frame of a video==
+==How do I capture the first frame of a video?==
 
 The easiest way to capture the first frame of a video is to take a screenshot. It's crude, but it works. Alternatively, you can download and install the free [http://ffmpeg.org/ FFmpeg] tool, and run this command in a terminal:
 
