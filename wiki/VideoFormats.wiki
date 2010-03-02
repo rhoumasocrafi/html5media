@@ -29,7 +29,7 @@ If you want to use Theora videos in your page, then you need to do a bit more wo
 </video>
 }}}
 
-Providing a Theora version of your video will allow Firefox to use a HTML5 video player. If you do not provide a Theora version, then Firefox will fall back to using a Flash video player.
+Providing a Theora version of your video will allow Firefox and Opera to use a HTML5 video player. If you do not provide a Theora version, then Firefox and Opera will fall back to using a Flash video player.
 
 You can convert your h.264 files to Theora using the following free tool:
 
