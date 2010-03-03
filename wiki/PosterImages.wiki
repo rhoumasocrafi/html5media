@@ -21,7 +21,7 @@ There's a [http://daringfireball.net/2009/12/html5_video_unusable bit of a debat
 The easiest way to capture the first frame of a video is to take a screenshot. It's crude, but it works. Alternatively, you can download and install the free [http://ffmpeg.org/ FFmpeg] tool, then run this command in a terminal:
 
 {{{
-$ ffmpeg  -ss 0 -i video.mp4 -f image2 -vframes 1 poster.jpg
+ffmpeg  -ss 0 -i video.mp4 -f image2 -vframes 1 poster.jpg
 }}}
 
 Getting FFmpeg installed can be a bit of a nightmare. Unless you're going to be processing a lot of videos, it's probably best to stick with screenshots.
