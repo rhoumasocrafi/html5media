@@ -11,7 +11,7 @@ The *html5media* script is run automatically when your page loads. However, if y
 To ensure that dynamically-inserted video tags are usable in all browsers, you must run the following line of code whenever you've finished inserting video tags.
 
 {{{
-$.html5media()
+html5media()
 }}}
 
 ==No support for audio tags==
