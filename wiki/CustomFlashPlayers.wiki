@@ -8,7 +8,7 @@ There are times when you might want to customise the appearance or behaviour of 
 
 {{{
 <script>
-    html5media.createFallback = function(video) {
+    html5media.createVideoFallback = function(video) {
         // Your own player code here.
     }
 </script>
