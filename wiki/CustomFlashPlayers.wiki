@@ -8,14 +8,14 @@ There are times when you might want to customise the appearance or behaviour of 
 
 {{{
 <script>
-    $.html5media.createFallback = function() {
+    html5media.createFallback = function(video) {
         // Your own player code here.
     }
 </script>
 }}}
 
-You can access the video tag being replaced by using `this` within the body of your function. It is your responsibility to correctly read the attributes of the video tag and emulate them in the custom player. Once the custom player has been created, replace the video tag with the custom player using the following syntax:
+It is your responsibility to correctly read the attributes of the video tag and emulate them in the custom player. Once the custom player has been created, replace the video tag with the custom player using the following syntax:
 
 {{{
-$(this).replaceWith(customPlayer);
+video.parentNode.replaceChild(replacement, video);
 }}}
