@@ -9,8 +9,6 @@ To enable HTML5 video tags in all major browsers, simply paste the following cod
 <script src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
 }}}
 
-If you're already using [http://jquery.com/ jQuery 1.4] in your page, then you can leave the first line out. Just be sure to include *html5media* underneath your own jQuery declaration.
-
 ==Video tag syntax==
 
 HTML5 video tags can be embedded using the following syntax:
