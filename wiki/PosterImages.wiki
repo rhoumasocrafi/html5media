@@ -5,7 +5,7 @@
 It is highly recommended that you add a splash image to all your video tags. This gives people something to see while the rest of the video downloads. Simply use the poster attribute as follows:
 
 {{{
-<video src="video.mp4" width="320" height="240" poster="image.jpg" controls autobuffer></video>
+<video src="video.mp4" width="320" height="240" poster="image.jpg" controls preload></video>
 }}}
 
 For consistent behaviour between browsers, the poster image should be taken from the first frame of the video.
