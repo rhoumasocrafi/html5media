@@ -34,8 +34,18 @@ It is highly recommended that you add a splash image to all your video tags. Thi
 
 For consistent behaviour between browsers, the poster image should be taken from the first frame of the video. See PosterImages for more information.
 
-==Styling video tags==
+==Audio tag syntax==
 
-It is important not to directly style the video tags in your document using CSS. This is because browsers that do not support video tags will have them replaced by a [http://www.flowplayer.org Flash video player].
+HTML5 audio tags can be embedded using the following syntax:
 
-To style your video tags using CSS, simply assign them a `class` or an `id`, and attach CSS style rules to that. The replacement Flash video player will have the same `id` and `class` as the video tag, so will pick up the same style rules.
+{{{
+<audio src="video.mp4" controls preload></audio>
+}}}
+
+They can be customised using the `controls`, `preload`, `autoplay` and `loop` attributes, as above.
+
+==Styling video and audio tags==
+
+It is important not to directly style the video and audio tags in your document using CSS. This is because browsers that do not support these tags will have them replaced by a [http://www.flowplayer.org Flash video player].
+
+To style your video and audio tags using CSS, simply assign them a `class` or an `id`, and attach CSS style rules to that. The replacement Flash player will have the same `id` and `class` as the original tag, so will pick up the same style rules.
