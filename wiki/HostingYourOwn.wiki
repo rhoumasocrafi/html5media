@@ -11,3 +11,5 @@ html5media.flowplayerSwf = "/path/to/your/flowplayer.swf";
 html5media.flowplayerAudioSwf = "/path/to/your/flowplayer.audio.swf";
 html5media.flowplayerControlsSwf = "/path/to/your/flowplayer.controls.swf";
 }}}
+
+These commands should be inserted in your page after the *html5media* script tag.
