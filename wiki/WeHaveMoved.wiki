@@ -1,0 +1,7 @@
+#summary The html5media project is now hosted on GitHub.
+
+= html5media has moved! =
+
+The html5media project is now hosted on GitHub. Please visit the new html5media project site using the link below:
+
+== [http://github.com/etianen/html5media » html5media on GitHub »] ==
