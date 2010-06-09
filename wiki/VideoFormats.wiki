@@ -1,5 +1,4 @@
 #summary Encoding your video for the web.
-#labels Featured
 
 =Video formats=
 
