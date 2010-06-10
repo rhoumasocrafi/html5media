@@ -1,4 +1,5 @@
 #summary How html5media does its magic.
+#labels Deprecated
 
 = How it works =
 
