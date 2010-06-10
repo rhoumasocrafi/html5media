@@ -1,4 +1,5 @@
 #summary Hosting your own html5media.
+#labels Deprecated
 
 = Hosting your own html5media =
 
